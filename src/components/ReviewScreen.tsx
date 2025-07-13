@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { IQuestion, UserAnswerMap } from '../types';
+import type { IQuestion, UserAnswerMap } from '../types';
 
 interface ReviewScreenProps {
   questions: IQuestion[];
